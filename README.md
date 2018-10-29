@@ -5,6 +5,15 @@
 - In this case study, One of the leading banks would like to predict customers who are most likely to default on the loan. 
 - For new customers we need to decide whether to extend credit or not by analyzing the behaviour of existing customers.
 
+## Project Summary
+- Brief Summary about the techniques used in the project. For full report check out the [CreditRiskAnalytics Summary](CreditRiskAnalytics_Summary.pdf)
+
+![Project Summary](Images/Summary.PNG)
+- ROC Curve - An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds.
+- Finding the best cufoff point - which maximises the specificity and the sensitivity. This threshold point might not give the highest   prediction in your model, but it wouldn't be biased towards positives or negatives.
+<img src="Images/ROC-log.PNG" alt="ROC Curve" width="600">
+<img src="Images/Cutoff.PNG" alt="Cutoff Curve" width="600">
+
 ## Installation
 The Installation process will get you a copy of the project up and running on your local machine for development and testing purposes
 1. Clone or download the project into your local machine.
@@ -20,3 +29,15 @@ The following list summarizes the packages/softwares used in this project. These
   * pydot graphviz  (pip install pydot graphviz) 
   * [pydotplus](https://pypi.org/project/pydotplus/) (pip install pydotplus)
 
+### Repository Contains
+ - Data Folder -- Contains Raw Data Files
+ - Problem Statement -- Case Study Business Problem Statement
+ - [CreditRiskAnalytics Summary](CreditRiskAnalytics_Summary.pdf) -- Credit Risk Analytics Project Summary Report
+ - [CreditRiskAnalytics-DefaultModel](CreditRiskAnalytics-DefaultModel.ipynb) -- Project Source Code File
+ - [LogisticRegression-KSChart](LogisticRegression-KSChart.xlsx) -- Excel Template File for Lift and Gain Charts
+ 
+### License & CopyRight
+Copyright (c) 2018 [Niranjan Kumar](https://www.linkedin.com/in/niranjankumar-c/) Licensed under the [Apache License 2.0](LICENSE)
+
+### Trademarks
+All other trademarks referenced herein are the property of their respective owners.
