@@ -19,6 +19,15 @@ The Installation process will get you a copy of the project up and running on yo
 1. Clone or download the project into your local machine.
 2. Unzip the project folder.
 3. Open the source file [CreditRiskAnalytics-DefaultModel](CreditRiskAnalytics-DefaultModel.ipynb) using [JypyterNotebook](http://jupyter.org/) and execute the file.
+4. Instead of step 3, use the classification model loaded in the pickle to classify default customers.
+
+```python
+import pickle
+# load the model from disk - use to classify the default customers directly
+loaded_model = pickle.load(open('OutPutModel/final_model.pkl', 'rb'))
+print("Loaded Decision tree model :: ", loaded_model)
+```
+5. After successfully loading the saved model, we can use them in the general way to predict for test dataset or in the production servers.
 
 ### Prerequisites
 The following list summarizes the packages/softwares used in this project. These are the softwares/packages you neeed to install before executing the project file.
